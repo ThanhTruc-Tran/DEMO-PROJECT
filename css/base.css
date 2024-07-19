@@ -7,6 +7,10 @@
     --font: "Raleway", sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -16,6 +20,7 @@ body {
     line-height: 1.6;
     color: var(--color-text);
     margin: 0;
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;

@@ -259,6 +259,7 @@
 
 .section-four .inner-box:hover {
     transition: all 0.3 ease 0;
+    transform: scale();
 }
 
 .section-four .inner-box .mini-box .inner-image {
@@ -598,6 +599,14 @@
     font-size: 14px;
     margin-bottom: 30px;
     padding-left: 20px;
+}
+
+.contact-us input:focus, .contact-us textarea:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
 }
 
 .contact-us textarea {
